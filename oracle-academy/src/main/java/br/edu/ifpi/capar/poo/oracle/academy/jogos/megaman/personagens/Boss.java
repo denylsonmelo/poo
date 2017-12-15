@@ -1,5 +1,7 @@
-package br.edu.ifpi.capar.poo.oracle.academy.jogos.megaman;
+package br.edu.ifpi.capar.poo.oracle.academy.jogos.megaman.personagens;
 
+import br.edu.ifpi.capar.poo.oracle.academy.jogos.megaman.fase.Fase;
+import br.edu.ifpi.capar.poo.oracle.academy.jogos.megaman.enums.Habilidade;
 import java.util.List;
 
 /**

@@ -1,4 +1,4 @@
-package br.edu.ifpi.capar.poo.oracle.academy.jogos.megaman;
+package br.edu.ifpi.capar.poo.oracle.academy.jogos.megaman.personagens;
 
 /**
  * informacao especial
