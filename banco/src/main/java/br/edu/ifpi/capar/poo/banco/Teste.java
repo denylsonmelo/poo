@@ -14,23 +14,12 @@ public class Teste {
 
     public static void main(String[] args) throws ClassNotFoundException, SQLException {
         
-        String banco = "com.mysql.cj.jdbc.Driver";
-        String url = "jdbc:mysql://localhost";
-        String porta = "3306";
-        String nomeDoBanco = "segundo_ano";
-        String usuario = "root";
-        String senha = "root";
+        Connection conexao = Banco.getConexao();
         
-        //tentar achar a classe do driver
-        Class.forName(banco);
+        // DataAccessObject
         
-        String urlDeConexao = url + ":" + porta + "/" + nomeDoBanco + "?serverTimezone=America/New_York";
-        System.out.println(urlDeConexao);
         
-        //tentar conectar
-        Connection conexao = DriverManager.getConnection(urlDeConexao, usuario, senha);
-        
-        String consulta = "select id, nome as 'Nome do Curso'  from cursoas";
+        String consulta = "select id, nome as 'Nome do Curso', carga_horaria, descricao  from curso";
         
         PreparedStatement declaracao = conexao.prepareStatement(consulta);
         
@@ -38,8 +27,14 @@ public class Teste {
         
         System.out.println("dados do banco:");
         while(retorno.next()){
-            System.out.println(retorno.getInt("id"));
-            System.out.println(retorno.getString("Nome do Curso"));
+            System.out.print(retorno.getInt("id"));
+            System.out.print("      ");
+            System.out.print(retorno.getString("Nome do Curso"));
+            System.out.print("      ");
+            System.out.print(retorno.getString(3));
+            System.out.print("      ");
+            System.out.println(retorno.getString(4));
+            System.out.print("      ");
             System.out.println("-------------------------");
         }
         
