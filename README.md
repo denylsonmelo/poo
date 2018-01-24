@@ -59,6 +59,14 @@ Desenvolver o conhecimento em relação ao paradigma da Orientação à Objetos 
 </div>
 <br/>
 
+Data    |   Evento                  |   Atividade
+---     |   ---                     |   ---
+        |   Prova 3º Bimestre       |   oracle 4 5 6 7 semestral
+        |   Recuperação 3º Bimestre |   oracle 7 semestral modelagem jogo
+        |   Prova 4 Mensal          |   oracle 8 9 trabalho 1 
+        |   Prova 4º Bimestre       |   trabalho 2 
+        |   Recuperação 4º Bimestre |   trabalho 1 -> 4 pontos trabalho 2 -> 4 pontos oracle exame final
+        |   Prova Final             |   trabalhos (outros exemplos) e oracle tudim
 
 
 ## Trabalhos
@@ -69,3 +77,10 @@ Desenvolver o conhecimento em relação ao paradigma da Orientação à Objetos 
     <b><a href="#indice">↥ Voltar para o indice</a></b>
 </div>
 <br/>
+
+
+[Ementa]: #ementa
+[Objetivo Geral]: #objetivo-geral
+[Objetivo Específico]: #objetivo-específico
+[Cronograma]: #cronograma
+[Trabalhos]: #trabalhos
