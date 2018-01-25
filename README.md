@@ -79,9 +79,18 @@ Data        |   Evento                  |   Atividade
 </div>
 <br/>
 
+**Finais**
+* [01 - Jogo]
+* [02 - Master Detail]
 
 [Ementa]: #ementa
 [Objetivo Geral]: #objetivo-geral
 [Objetivo Específico]: #objetivo-específico
 [Cronograma]: #cronograma
 [Trabalhos]: #trabalhos
+
+[Trabalho Final 1]: trabalhos/finais/01-jogo.md
+[Trabalho Final 2]: trabalhos/finais/02-master-detail.md
+
+[01 - Jogo]: trabalhos/finais/01-jogo.md
+[02 - Master Detail]: trabalhos/finais/02-master-detail.md
