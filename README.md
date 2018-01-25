@@ -59,15 +59,16 @@ Desenvolver o conhecimento em relação ao paradigma da Orientação à Objetos 
 </div>
 <br/>
 
-Data    |   Evento                  |   Atividade
----     |   ---                     |   ---
-        |   Prova 3º Bimestre       |   oracle 4 5 6 7 semestral
-        |   Recuperação 3º Bimestre |   oracle 7 semestral modelagem jogo
-        |   Prova 4 Mensal          |   oracle 8 9 trabalho 1 
-        |   Prova 4º Bimestre       |   trabalho 2 
-        |   Recuperação 4º Bimestre |   trabalho 1 -> 4 pontos trabalho 2 -> 4 pontos oracle exame final
-        |   Prova Final             |   trabalhos (outros exemplos) e oracle tudim
+Data        |   Evento                  |   Atividade
+---         |   ---                     |   ---
+22/12/207   |   Prova 3º Bimestre       |   Oracle (cáp. 4, 5, 6, 7, Exame Semestral)
+27/01/2018  |   Recuperação 3º Bimestre |   Oracle (cáp. 7, Exame Semestral), Modelagem de jogo
+03/03/2018* |   Prova 4 Mensal          |   Oracle (cáp. 8, 9), Trabalho Final 1(50%) 
+03/03/2018* |   Prova 4º Bimestre       |   Trabalho Final 2 
+16/03/2018* |   Recuperação 4º Bimestre |   Trabalho Final 1(40%), Trabalho Final 2(40%), Oracle Exame Final
+22/03/2018* |   Prova Final             |   Trabalhos Finais (outros exemplos) e Oracle (tudim)
 
+* *Datas prováveis
 
 ## Trabalhos
 ----
