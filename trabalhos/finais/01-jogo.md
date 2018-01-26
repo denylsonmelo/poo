@@ -37,9 +37,9 @@ Gta             |   X           |   X
 * [znes]
 * [RomsUP]
 * [Spriters Resource]
+* [Sprite Database]
 * [Textures Resource]
 * [Models Resource]
-* [Sprite Database]
 
 [GitHub]: https://github.com/
 [denylsonmelo]: https://github.com/denylsonmelo/
@@ -47,6 +47,6 @@ Gta             |   X           |   X
 [znes]: http://www.zsnes.com/
 [RomsUP]: http://www.romsup.com/
 [Spriters Resource]: https://www.spriters-resource.com/
+[Sprite Database]: http://spritedatabase.net/
 [Textures Resource]: https://www.textures-resource.com/
 [Models Resource]: https://www.models-resource.com/
-[Sprite Database]: http://spritedatabase.net/
