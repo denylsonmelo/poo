@@ -9,7 +9,7 @@ Pokemon         |   X           |   X
 Sonic           |   X           |   X
 Megaman         |   X           |   X
 Kirby           |   X           |   X
-Castlevania     |   X           |   X
+Castlevania     |   Lucão       |   X
 Zelda           |   X           |   X
 Bomberman       |   X           |   X
 Metroid         |   X           |   X
@@ -33,11 +33,20 @@ Gta             |   X           |   X
 * Adicionar o usuário [denylsonmelo] como colaborador do projeto
 * Marque uma data para apresentar em sala, de forma a sanar dúvidas de todos sobre os passos de desenvolvimento do mesmo
 
-znes
-sprites
-[Spriters Resource]
+**Inspiração**
+* [znes]
+* [RomsUP]
+* [Spriters Resource]
+* [Textures Resource]
+* [Models Resource]
+* [Sprite Database]
 
 [GitHub]: https://github.com/
 [denylsonmelo]: https://github.com/denylsonmelo/
 
+[znes]: http://www.zsnes.com/
+[RomsUP]: http://www.romsup.com/
 [Spriters Resource]: https://www.spriters-resource.com/
+[Textures Resource]: https://www.textures-resource.com/
+[Models Resource]: https://www.models-resource.com/
+[Sprite Database]: http://spritedatabase.net/
