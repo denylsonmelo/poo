@@ -2,23 +2,23 @@
 Faça a análise e crie um cadastro composto mestre-detalhe que deve ter todas as operações de CRUD e ser persistido em banco, baseado nas sugestões abaixo
 
 ### Sugestões
-Problema                    |   Dupla 01    |   Dupla 02
----                         |   ---         |   ---
-faculdade -> curso          |   X           |   X
-curso -> aluno              |   X           |   X
-concessionaria -> carro     |   X           |   X
-estacionamento -> carro     |   X           |   X
+Problema                    |   Dupla 01               |   Dupla 02
+---                         |   ---                    |   ---
+faculdade -> curso          |   Emilly, Tawan          |   X
+curso -> aluno              |   Wendell, Luquinha      |   X
+concessionaria -> carro     |   Lucão, Gustavo         |   X
+estacionamento -> carro     |   Laércio, Edward        |   X
 corrida -> piloto           |   X           |   X
-loja -> cliente             |   X           |   X
-cliente -> pagamento        |   X           |   X
-empresa -> funcionario      |   X           |   X
-cinema -> filme             |   X           |   X
-biblioteca -> livro         |   X           |   X
+loja -> cliente             |   Vanessa, Sergina       |   X
+cliente -> pagamento        |   Vinicius, Manoel       |   X
+empresa -> funcionario      |   Milena, Vitória        |   X
+cinema -> filme             |   Mariane, Damares       |   X
+biblioteca -> livro         |   Mauricio, Assuero      |   X
 prisao -> presidiario       |   X           |   X
-plano de saude -> pessoa    |   X           |   X
-hospital -> paciente        |   X           |   X
+plano de saude -> pessoa    |   João Paulo, Isabele    |   X
+hospital -> paciente        |   Stefany, Ester         |   X
 funeraria -> caixao         |   X           |   X
-cemiterio -> defunto        |   X           |   X
+cemiterio -> defunto        |   Karliana, João Victor  |   X
 
 **Requisitos**
 * Projeto Maven
