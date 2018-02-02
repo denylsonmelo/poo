@@ -21,6 +21,10 @@ public class Teste {
         
         alunoDAO.cadastrar();
         
+        alunoDAO.atualizarNome();
+        
+        alunoDAO.excluir(aluno);
+        
         alunoDAO.consultar();
 
     }
