@@ -89,8 +89,8 @@ Data        |   Evento                  |   Atividade
 [Cronograma]: #cronograma
 [Trabalhos]: #trabalhos
 
-[Trabalho Final 1]: trabalhos/finais/01-jogo.md
-[Trabalho Final 2]: trabalhos/finais/02-master-detail.md
+[Trabalho Final 1]: src/main/java/br/edu/ifpi/capar/poo/trabalhos/finais/01-jogo.md
+[Trabalho Final 2]: src/main/java/br/edu/ifpi/capar/poo/trabalhos/finais/02-master-detail.md
 
-[01 - Jogo]: trabalhos/finais/01-jogo.md
-[02 - Master Detail]: trabalhos/finais/02-master-detail.md
+[01 - Jogo]: src/main/java/br/edu/ifpi/capar/poo/trabalhos/finais/01-jogo.md
+[02 - Master Detail]: src/main/java/br/edu/ifpi/capar/poo/trabalhos/finais/02-master-detail.md
