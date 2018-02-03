@@ -1,17 +1,24 @@
 package br.edu.ifpi.capar.poo.banco.dao;
 
 import br.edu.ifpi.capar.poo.banco.bd.Banco;
+import br.edu.ifpi.capar.poo.banco.model.Curso;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  *
  * @author Denylson Melo
  */
-public class CursoDAO {
+public class CursoDAO implements DAO{
  
+    public List<Curso> consultar(){
+        return new ArrayList<>();
+    }
+    /*
     public void consultar(){
         try {
             // DataAccessObject
@@ -38,5 +45,11 @@ public class CursoDAO {
         } catch (SQLException ex) {
             System.out.println("voce nao eh capaz");
         }
+    }
+*/
+
+    @Override
+    public boolean excluir(Curso curso) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 }
