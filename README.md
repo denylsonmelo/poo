@@ -63,7 +63,8 @@ Desenvolver o conhecimento em relação ao paradigma da Orientação à Objetos 
 
 Data        |   Evento                  |   Atividade
 ---         |   ---                     |   ---
-
+19/05       |   Revisão                 |   Listas de Python (Básico, Seleção, Repetição)   
+28/05       |   Revisão                 |   Listas de Java (Básico, Seleção, Repetição)
 
 
 ## Trabalhos
