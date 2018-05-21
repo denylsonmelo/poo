@@ -1,23 +1,42 @@
 package br.edu.ifpi.capar.poo.banco.dao;
 
-import br.edu.ifpi.capar.poo.banco.model.Curso;
 import br.edu.ifpi.capar.poo.banco.model.Aluno;
-import br.edu.ifpi.capar.poo.banco.bd.Banco;
-import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.util.ArrayList;
 import java.util.List;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 
 /**
  *
  * @author Denylson Melo
  */
-public class AlunoDAO {
+public class AlunoDAO implements DAO<Aluno, Long>{
 
+    @Override
+    public Aluno atualizar(Aluno t) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public Aluno cadastrar(Aluno t) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public List<Aluno> consultar() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public Aluno consultar(int id) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public boolean excluir(Aluno t) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+    
+    
+    
+/*
     public void consultar() {
         try {
             Connection conexao = Banco.getConexao();
@@ -170,4 +189,5 @@ public class AlunoDAO {
         }
 
     }
+*/
 }

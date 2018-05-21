@@ -372,3 +372,4 @@ $RECYCLE.BIN/
 *.lnk
 
 # End of https://www.gitignore.io/api/java,maven,macos,pydev,linux,python,eclipse,pycharm,windows,netbeans,java-web,intellij
+/nbproject/

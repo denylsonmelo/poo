@@ -1,11 +1,6 @@
 package br.edu.ifpi.capar.poo.banco.dao;
 
-import br.edu.ifpi.capar.poo.banco.bd.Banco;
 import br.edu.ifpi.capar.poo.banco.model.Curso;
-import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -13,12 +8,40 @@ import java.util.List;
  *
  * @author Denylson Melo
  */
-public class CursoDAO implements DAO{
+public class CursoDAO implements DAO<Curso>{
+
+    @Override
+    public Curso atualizar(Curso t) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public Curso cadastrar(Curso t) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public List<Curso> consultar() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public Curso consultar(int id) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public boolean excluir(Curso t) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
  
+    
+    
+    
+    /*
     public List<Curso> consultar(){
         return new ArrayList<>();
     }
-    /*
     public void consultar(){
         try {
             // DataAccessObject
@@ -46,10 +69,10 @@ public class CursoDAO implements DAO{
             System.out.println("voce nao eh capaz");
         }
     }
-*/
 
     @Override
     public boolean excluir(Curso curso) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
+*/
 }

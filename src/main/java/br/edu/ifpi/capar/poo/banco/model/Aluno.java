@@ -1,13 +1,14 @@
 package br.edu.ifpi.capar.poo.banco.model;
 
+import java.io.Serializable;
 import java.util.Objects;
 
 /**
  *
  * @author Denylson Melo
  */
-public class Aluno {
-    //pojo
+public class Aluno implements Serializable{
+    //pojo =|= dto
     private final int id;
     private final String matricula;
     private String nome;

@@ -1,18 +1,19 @@
 package br.edu.ifpi.capar.poo.banco.dao;
 
-import br.edu.ifpi.capar.poo.banco.model.Curso;
+import java.io.Serializable;
 import java.util.List;
 
 /**
  *
  * @author Denylson Melo
+ * @param <T>
  */
-public interface DAO {
+public interface DAO <T extends Object, ID extends Serializable> {
     
     // generics
-    Curso atualizar(Curso curso);
-    Curso cadastrar(Curso curso);
-    List<Curso> consultar();
-    Curso consultar(int id);
-    boolean excluir(Curso curso);
+    T atualizar(T t);
+    T cadastrar(T t);
+    List<T> consultar();
+    T consultar(int id);
+    boolean excluir(T t);
 }
