@@ -4,23 +4,23 @@ Faça a análise e crie um cadastro composto mestre-detalhe que deve ter todas a
 ### Sugestões
 Problema                    |   Dupla 01               
 ---                         |   ---                    
-faculdade -> curso          |   
-curso -> aluno              |   
-concessionaria -> carro     |   
+faculdade -> curso          |   ronaldo  juenaldo
+curso -> aluno              |   carlos, cleunice
+concessionaria -> carro     |   artur, rafael
 estacionamento -> carro     |   
 corrida -> piloto           |   
 loja -> cliente             |   
-cliente -> pagamento        |    
-empresa -> funcionario      |   
-cinema -> filme             |   
+cliente -> pagamento        |   jesse, 
+empresa -> funcionario      |   leonidas, jailson, douglas
+cinema -> filme             |   geyssyele, luzia
 biblioteca -> livro         |   
-prisao -> presidiario       |   
+prisao -> presidiario       |   filipe, leonardo
 plano de saude -> pessoa    |   
-hospital -> paciente        |   
-funeraria -> caixao         |   
+hospital -> paciente        |   vitoria, wendel
+funeraria -> caixao         |   bernado
 cemiterio -> defunto        |   
 restaurante -> cardapio     |
-locadora -> jogo            |   
+locadora -> jogo            |   breno, davi 
 
 **Requisitos**
 * Projeto Maven

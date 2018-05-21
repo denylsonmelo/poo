@@ -4,20 +4,20 @@ Criar um jogo 2D de pelo menos 2 fases, com o conceito de animação de sprites,
 ### Sugestões
 Jogos                   |   Dupla 01            
 ---                     |   ---                 
-Mario                   |   
+Mario                   |   Luzia, Geyssyele
 Pokemon                 |        
-Sonic                   |     
-Megaman                 |        
+Sonic                   |   Vitoria, Wendel   
+Megaman                 |   Filipe, Leonardo     
 Kirby                   |   
-Castlevania             |     
-Zelda                   |   
-Bomberman               |        
-Metroid                 |   
+Castlevania             |   Artur, Rafael  
+Zelda                   |   Breno, Davi
+Bomberman               |   Cleunice, Carlos     
+Metroid                 |   Leonidas, Jailson, Douglas
 Sonic Wings             |     
 Metal Slug              |         
 Metal Warriors          |     
-Gta                     |     
-Top Gear                |   
+Gta                     |   Ronaldo Juenaldo  
+Top Gear                |   Jesse, Bernado
 Robot Unicorn Attack    |
 
 **Requisitos**
