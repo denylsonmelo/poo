@@ -2,21 +2,23 @@
 Criar um jogo 2D de pelo menos 2 fases, com o conceito de animação de sprites, baseado nas sugestões abaixo
 
 ### Sugestões
-Jogos           |   Dupla 01            |   Dupla 02
----             |   ---                 |   ---
-Mario           |   Vanessa, Sergina    |   Mariane, Damares
-Pokemon         |   Wendell, Emilly     |   X
-Sonic           |   Isabele, João Paulo |   Robert, Carlos Vinicius
-Megaman         |   Ester, Stephany     |   Gustavo, Lucão
-Kirby           |   Milena, Vitória     |   X
-Castlevania     |   X                   |   X
-Zelda           |   Mauricio, Assuero   |   X
-Bomberman       |   Tawan, Edward       |   Lenon, Carlos Andre
-Metroid         |   Laercio,            |   X
-Sonic Wings     |   X                   |   X
-Metal Slug      |   Luquinha, Jordan    |   João Victor, Karliana
-Metal Warriors  |   X                   |   X
-Gta             |   Manoel, Vinicius    |   X
+Jogos                   |   Dupla 01            
+---                     |   ---                 
+Mario                   |   
+Pokemon                 |        
+Sonic                   |     
+Megaman                 |        
+Kirby                   |   
+Castlevania             |     
+Zelda                   |   
+Bomberman               |        
+Metroid                 |   
+Sonic Wings             |     
+Metal Slug              |         
+Metal Warriors          |     
+Gta                     |     
+Top Gear                |   
+Robot Unicorn Attack    |
 
 **Requisitos**
 * Projeto Maven

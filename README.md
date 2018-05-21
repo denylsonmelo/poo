@@ -61,14 +61,8 @@ Desenvolver o conhecimento em relação ao paradigma da Orientação à Objetos 
 
 Data        |   Evento                  |   Atividade
 ---         |   ---                     |   ---
-22/12/207   |   Prova 3º Bimestre       |   Oracle (cáp. 4, 5, 6, 7, Exame Semestral)
-27/01/2018  |   Recuperação 3º Bimestre |   Oracle (cáp. 7, Exame Semestral), Modelagem de jogo
-03/03/2018* |   Prova 4 Mensal          |   Oracle (cáp. 8, 9) (50%), [Trabalho Final 1] (50%) 
-03/03/2018* |   Prova 4º Bimestre       |   [Trabalho Final 2]
-16/03/2018* |   Recuperação 4º Bimestre |   [Trabalho Final 1] (40%), [Trabalho Final 2] (40%), Oracle Exame Final (20%)
-22/03/2018* |   Prova Final             |   Trabalhos Finais (outros exemplos) e Oracle (tudim)
 
-* *Datas prováveis
+
 
 ## Trabalhos
 ----
@@ -88,9 +82,6 @@ Data        |   Evento                  |   Atividade
 [Objetivo Específico]: #objetivo-específico
 [Cronograma]: #cronograma
 [Trabalhos]: #trabalhos
-
-[Trabalho Final 1]: src/main/java/br/edu/ifpi/capar/poo/trabalhos/finais/01-jogo.md
-[Trabalho Final 2]: src/main/java/br/edu/ifpi/capar/poo/trabalhos/finais/02-master-detail.md
 
 [01 - Jogo]: src/main/java/br/edu/ifpi/capar/poo/trabalhos/finais/01-jogo.md
 [02 - Master Detail]: src/main/java/br/edu/ifpi/capar/poo/trabalhos/finais/02-master-detail.md
