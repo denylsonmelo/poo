@@ -11,7 +11,7 @@ Megaman         |   Ester, Stephany     |   Gustavo, Lucão
 Kirby           |   Milena, Vitória     |   X
 Castlevania     |   X                   |   X
 Zelda           |   Mauricio, Assuero   |   X
-Bomberman       |   Tawan, Edward       |   X
+Bomberman       |   Tawan, Edward       |   Lenon, Carlos Andre
 Metroid         |   Laercio,            |   X
 Sonic Wings     |   X                   |   X
 Metal Slug      |   Luquinha, Jordan    |   João Victor, Karliana
