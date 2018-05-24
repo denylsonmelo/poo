@@ -35,6 +35,20 @@ Robot Unicorn Attack    |
 * Adicionar o usuário [denylsonmelo] como colaborador do projeto
 * Marque uma data para apresentar em sala, de forma a sanar dúvidas de todos sobre os passos de desenvolvimento do mesmo
 
+**Pontuação**
+Itens       |   Valor Máximo
+---         |   ---
+Git         |   1 pt
+Maven       |   1 pt
+Interface   |   1 pt
+Som         |   1 pt
+2 fases     |   1 pt
+Javadoc     |   1 pt
+Funcionar   |   4 pt
+
+* *Somente será validada a nota de quem realizar a apresentação em sala na frente dos outros alunos e souber responder as perguntas realizadas por docentes, discentes e demais expectadores.
+
+
 **Inspiração**
 * [znes]
 * [RomsUP]
