@@ -7,6 +7,7 @@ Repositório para a disciplina Programação Orientada a Objetos dos cursos de I
 3. [Objetivo Específico]
 4. [Cronograma]
 5. [Trabalhos]
+6. [Bibliografia]
 
 ## Ementa
 ----
@@ -77,11 +78,42 @@ Data        |   Evento                  |   Atividade
 * [01 - Jogo]
 * [02 - Master Detail]
 
+## Bibliografia
+----
+
+<br/>
+<div align="right">
+    <b><a href="#indice">↥ Voltar para o indice</a></b>
+</div>
+<br/>
+
+```
+SCHILDT, Herbert. Java para iniciantes: crie, compile e execute programas Java rapidamente. 6. ed.
+Porto Alegre: Bookman, 2014
+SANTOS, Rafael. Introdução à programação orientada a objetos usando Java. 2. ed. Rio de Janeiro:
+Campus, 2013.
+SIERRA, Kathy; BATES, Bert. Use a cabeça!: Java. 2. ed. Rio de Janeiro: Alta Books, 2010.
+BORATTI, Isaias Camilo. Programação orientada a objetos em Java. Florianópolis: Visual Books, 2007.
+GUEDES, Gilleanes T. A. UML 2: uma abordagem prática. São Paulo: Novatec, 2009
+MASSOL, Vicent; PISTILLI, Cláudio Rodrigues (Trad.). JUnit em ação. Rio de Janeiro: Ciência Moderna,
+2005.
+DEITEL, Harvey; DEITEL, Paul. Java Como Programar. 8a Ed. Bookman, 2010.
+SINTES, Antony. Aprenda Programação Orientada a Objetos em 21 dias. 1a Ed. São Paulo:
+Makron Books, 2002.
+HORSTMANN, Cay S.; CORNELL, Gary. Core JAVA 2: Volume I - Fundamentos. 7a Ed. São
+Paulo: Alta Books, 2005.
+COX, Brad J. Programação Orientada para Objeto. São Paulo: Makron Books, 1991.
+SANTOS, Rafael. Introdução à Programação Orientada a Objetos Usando Java. 1a Ed. Rio de
+Janeiro: Elsevier, 2003.
+```
+
+
 [Ementa]: #ementa
 [Objetivo Geral]: #objetivo-geral
 [Objetivo Específico]: #objetivo-específico
 [Cronograma]: #cronograma
 [Trabalhos]: #trabalhos
+[Bibliografia]: #bibliografia
 
 [01 - Jogo]: src/main/java/br/edu/ifpi/capar/poo/trabalhos/finais/01-jogo.md
 [02 - Master Detail]: src/main/java/br/edu/ifpi/capar/poo/trabalhos/finais/02-master-detail.md
