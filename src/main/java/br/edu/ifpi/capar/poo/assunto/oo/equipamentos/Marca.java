@@ -1,4 +1,4 @@
-package br.edu.ifpi.capar.poo.noite.equipamentos;
+package br.edu.ifpi.capar.poo.assunto.oo.equipamentos;
 
 /**
  *

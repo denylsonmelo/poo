@@ -1,4 +1,4 @@
-package br.edu.ifpi.capar.poo.noite.uri;
+package br.edu.ifpi.capar.poo.revisao.uri.java;
 
 import java.util.Scanner;
 
