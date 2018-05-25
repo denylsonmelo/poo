@@ -8,6 +8,7 @@ Repositório para a disciplina Programação Orientada a Objetos dos cursos de I
 4. [Cronograma]
 5. [Trabalhos]
 6. [Bibliografia]
+7. [Extras]
 
 ## Ementa
 ----
@@ -87,26 +88,30 @@ Data        |   Evento                  |   Atividade
 </div>
 <br/>
 
-```
-SCHILDT, Herbert. Java para iniciantes: crie, compile e execute programas Java rapidamente. 6. ed.
-Porto Alegre: Bookman, 2014
-SANTOS, Rafael. Introdução à programação orientada a objetos usando Java. 2. ed. Rio de Janeiro:
-Campus, 2013.
-SIERRA, Kathy; BATES, Bert. Use a cabeça!: Java. 2. ed. Rio de Janeiro: Alta Books, 2010.
-BORATTI, Isaias Camilo. Programação orientada a objetos em Java. Florianópolis: Visual Books, 2007.
-GUEDES, Gilleanes T. A. UML 2: uma abordagem prática. São Paulo: Novatec, 2009
-MASSOL, Vicent; PISTILLI, Cláudio Rodrigues (Trad.). JUnit em ação. Rio de Janeiro: Ciência Moderna,
-2005.
-DEITEL, Harvey; DEITEL, Paul. Java Como Programar. 8a Ed. Bookman, 2010.
-SINTES, Antony. Aprenda Programação Orientada a Objetos em 21 dias. 1a Ed. São Paulo:
-Makron Books, 2002.
-HORSTMANN, Cay S.; CORNELL, Gary. Core JAVA 2: Volume I - Fundamentos. 7a Ed. São
-Paulo: Alta Books, 2005.
-COX, Brad J. Programação Orientada para Objeto. São Paulo: Makron Books, 1991.
-SANTOS, Rafael. Introdução à Programação Orientada a Objetos Usando Java. 1a Ed. Rio de
-Janeiro: Elsevier, 2003.
-```
 
+* SCHILDT, Herbert. **Java para iniciantes: crie, compile e execute programas Java rapidamente.** 6. ed. Porto Alegre: Bookman, 2014
+* SANTOS, Rafael. **Introdução à programação orientada a objetos usando Java.** 2. ed. Rio de Janeiro:Campus, 2013.
+* SIERRA, Kathy; BATES, Bert. **Use a cabeça!: Java.** 2. ed. Rio de Janeiro: Alta Books, 2010.
+* BORATTI, Isaias Camilo. **Programação orientada a objetos em Java.** Florianópolis: Visual Books, 2007.
+* GUEDES, Gilleanes T. A. **UML 2: uma abordagem prática.** São Paulo: Novatec, 2009
+* MASSOL, Vicent; PISTILLI, Cláudio Rodrigues (Trad.). **JUnit em ação.** Rio de Janeiro: Ciência Moderna,2005.
+* DEITEL, Harvey; DEITEL, Paul. **Java Como Programar.** 8a Ed. Bookman, 2010.
+* SINTES, Antony. **Aprenda Programação Orientada a Objetos em 21 dias.** 1a Ed. São Paulo:Makron Books, 2002.
+* HORSTMANN, Cay S.; CORNELL, Gary. **Core JAVA 2: Volume I - Fundamentos.** 7a Ed. São Paulo: Alta Books, 2005.
+* COX, Brad J. **Programação Orientada para Objeto.** São Paulo: Makron Books, 1991.
+* SANTOS, Rafael. **Introdução à Programação Orientada a Objetos Usando Java.** 1a Ed. Rio de Janeiro: Elsevier, 2003.
+
+## Extras
+----
+
+<br/>
+<div align="right">
+    <b><a href="#indice">↥ Voltar para o indice</a></b>
+</div>
+<br/>
+
+* [Loiane Training - Java Básico]
+* [Loiane Training - Java II (Intermediário)]
 
 [Ementa]: #ementa
 [Objetivo Geral]: #objetivo-geral
@@ -114,6 +119,10 @@ Janeiro: Elsevier, 2003.
 [Cronograma]: #cronograma
 [Trabalhos]: #trabalhos
 [Bibliografia]: #bibliografia
+[Extras]: #extras
 
 [01 - Jogo]: src/main/java/br/edu/ifpi/capar/poo/trabalhos/finais/01-jogo.md
 [02 - Master Detail]: src/main/java/br/edu/ifpi/capar/poo/trabalhos/finais/02-master-detail.md
+
+[Loiane Training - Java Básico]: https://loiane.training/course/java-basico/
+[Loiane Training - Java II (Intermediário)]: https://loiane.training/course/java-basico-ii/
