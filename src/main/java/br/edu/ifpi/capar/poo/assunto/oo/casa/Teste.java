@@ -9,9 +9,12 @@ public class Teste {
         
         Porta porta = new Porta();
         
-        if(porta.verificarEstarFechada())
-            System.out.println("porta fechada");
-        else
-            System.out.println("porta aberta");
+        
+        //porta.aberta = false; // quer dizer que vai estar fechada
+        porta.fechar();
+        
+                    
+        
+        
     }
 }

@@ -1,6 +1,5 @@
 package br.edu.ifpi.capar.poo.assunto.oo.animal;
 
-import br.edu.ifpi.capar.poo.noite.animal.Gato;
 
 /**
  *
