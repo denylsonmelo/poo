@@ -8,7 +8,7 @@ public class Porta {
 
     // public, protected, private, 
     private String material;
-    private Proprietario dono;
+    private Dono dono;
     private boolean aberta = true;
     private boolean trancado = false;
 

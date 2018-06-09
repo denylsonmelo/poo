@@ -1,10 +1,14 @@
 package br.edu.ifpi.capar.poo.assunto.oo.casa;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 /**
  *
  * @author Denylson Melo
  */
-public class Proprietario {
+public class Dono {
 
     private String nome;
     private Sexo sexo;
@@ -33,7 +37,11 @@ public class Proprietario {
         //desafio1: comparar diversos valores, em um conjunto, com o sexo
         //desafio2: usando lambda 
         
-        if (sexo.equalsIgnoreCase("feminino")) {
+        List<String> lista = Arrays.asList("f", "feminino", "mulher");
+        
+        
+        
+        if (lista.contains(sexo.toLowerCase())) {
             this.sexo = Sexo.FEMININO;
         }
         else if (sexo.equalsIgnoreCase("masculino")) {
@@ -48,6 +56,9 @@ public class Proprietario {
     }
 
     public String getEndereco() {
+        if(this.endereco == null || this.endereco.isEmpty()){
+            return "Endereço não especificado";
+        }
         return endereco;
     }
 
@@ -61,25 +72,27 @@ public class Proprietario {
 
     @Override
     public String toString() {
-        // desafio3: 
-        return "Proprietario[" + this.nome + "," + this.sexo + "," + this.endereco + "]";
+        return  this.getClass().getSimpleName() + "[" 
+                + this.getNome() + ", " 
+                + this.getSexo() + ", " 
+                + this.getEndereco() + "]";
     }
  
 
     // Propietario(String)
-    public Proprietario(String nome) {
+    public Dono(String nome) {
         this.nome = nome;
         this.endereco = "parnaiba";
     }
 
     // Propietario(String, String)
-    public Proprietario(String nome, String endereco) {
+    public Dono(String nome, String endereco) {
         this.nome = nome;
         this.endereco = endereco;
     }
 
     // Propietario(String, Sexo)
-    public Proprietario(String nome, Sexo sexo) {
+    public Dono(String nome, Sexo sexo) {
         this.nome = nome;
         this.sexo = sexo;
     }

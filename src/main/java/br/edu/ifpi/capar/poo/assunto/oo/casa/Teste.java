@@ -14,10 +14,10 @@ public class Teste {
         //porta.fechar();
         
           
-        Proprietario proprietario1 = new Proprietario("Vitoria");
-        Proprietario proprietario2 = new Proprietario("Luzia", Sexo.FEMININO);
-        Proprietario proprietario3 = new Proprietario("Davi", "na brenha");
-        Proprietario proprietario4 = proprietario1;
+        Dono proprietario1 = new Dono("Vitoria");
+        Dono proprietario2 = new Dono("Luzia", Sexo.FEMININO);
+        Dono proprietario3 = new Dono("Davi", "");
+        Dono proprietario4 = proprietario1;
         
         
         /*
@@ -26,10 +26,10 @@ public class Teste {
         System.out.println(proprietario3.getNome() + " " + proprietario3.getSexo() + " " + proprietario3.getEndereco());
         
         */
-                
-        System.out.println(proprietario1);
-        System.out.println(proprietario2);
-        System.out.println(proprietario3);
-        System.out.println(proprietario4);
+          
+        proprietario2.setSexo("texto qualquer");
+        
+        
+        //System.out.println(proprietario1);
 }
 }
