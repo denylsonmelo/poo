@@ -38,7 +38,19 @@ public class Dono {
         //desafio2: usando lambda 
         
         List<String> lista = Arrays.asList("f", "feminino", "mulher");
+        /*
+        for (String elemento : lista) {
+            if(elemento.equalsIgnoreCase(sexo))
+                this.sexo = Sexo.FEMININO;
+        }
         
+        //  coisa.funcao(variavel -> {});
+        //  coisa.funcao((variavel1, variavel2, ...) -> {});
+        lista.forEach(elemento -> {
+            if(elemento.equalsIgnoreCase(sexo))
+                this.sexo = Sexo.FEMININO;
+        });
+       */
         
         
         if (lista.contains(sexo.toLowerCase())) {
