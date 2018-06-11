@@ -9,18 +9,15 @@ public class Teste {
     public static void main(String[] args) {
         
         Gato tom = new Gato("tom");
-        Gato binLaden = new Gato("bin laden");
-        Gato safira = new Gato("safira");
+        Cachorro binLaden = new Cachorro("bin laden");
+        Papagaio safira = new Papagaio("safira");
+        Animal sabrina = new Cachorro("sabrina");
         
-        tom.pedirComida();
-        tom.miar();
-        tom.dormir();
-        
-        binLaden.dormir();
-        
-        safira.miar();
-        
-        
+        tom.emitirSom();
+        binLaden.emitirSom();
+        binLaden.latirAgressivamente();
+        safira.emitirSom();
+        sabrina.emitirSom();
         
     }
     
