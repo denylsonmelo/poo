@@ -4,7 +4,11 @@ package br.edu.ifpi.capar.poo.assunto.oo.animal;
  *
  * @author Denylson Melo
  */
-public class Cachorro extends Animal{
+public class Cachorro implements Animal{
+
+    public Cachorro(String nome) {
+        this.nome = nome;
+    }
 
     @Override
     public void emitirSom() {
@@ -19,8 +23,10 @@ public class Cachorro extends Animal{
         System.out.println(this.getNome() + " esta latindo");
     }
     
-    public Cachorro(String nome) {
-        super(nome);
+    private String nome;
+
+    public String getNome() {
+        return nome;
     }
    
 }

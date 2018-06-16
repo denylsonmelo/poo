@@ -4,10 +4,16 @@ package br.edu.ifpi.capar.poo.assunto.oo.animal;
  *
  * @author Denylson Melo
  */
-public class Papagaio extends Animal{
+public class Papagaio implements Animal{
 
+    private String nome;
+
+    public String getNome() {
+        return nome;
+    }
+    
     public Papagaio(String nome) {
-        super(nome);
+        this.nome = nome;
     }
 
     @Override
