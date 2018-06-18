@@ -22,7 +22,13 @@ public class Zoologico {
                 .append("   ***          \n")
                 .append("-----------------------------------------------------\n");
 
-        
+        this.animals.forEach((animal) -> {
+            builder.append(this.animals.indexOf(animal) + 1)
+                    .append(". ----------------------- ")
+                    .append(animal.getNome())
+                    .append("\n");
+        });
+
         builder.append("-----------------------------------------------------\n");
 
         return builder.toString();
