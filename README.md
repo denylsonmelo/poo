@@ -110,6 +110,8 @@ Data        |   Evento                  |   Atividade
 </div>
 <br/>
 
+* [Oracle Academy - iLearning] - [Listas de Usuários]
+
 * [Loiane Training - Java Básico]
 * [Loiane Training - Java II (Intermediário)]
 
@@ -123,6 +125,9 @@ Data        |   Evento                  |   Atividade
 
 [01 - Jogo]: src/main/java/br/edu/ifpi/capar/poo/trabalhos/finais/01-jogo.md
 [02 - Master Detail]: src/main/java/br/edu/ifpi/capar/poo/trabalhos/finais/02-master-detail.md
+
+[Oracle Academy - iLearning]: http://ilearning.oracle.com/ilearn/en/learner/jsp/login.jsp?site=OracleAcad
+[Listas de Usuários]: src/main/java/br/edu/ifpi/capar/poo/oracle/usuarios.md
 
 [Loiane Training - Java Básico]: https://loiane.training/course/java-basico/
 [Loiane Training - Java II (Intermediário)]: https://loiane.training/course/java-basico-ii/
