@@ -2,6 +2,7 @@ package br.edu.ifpi.capar.poo.assunto.oo.animal;
 
 import java.util.ArrayList;
 import java.util.List;
+import org.apache.commons.lang3.StringUtils;
 
 /**
  *
@@ -16,20 +17,20 @@ public class Zoologico {
     public String toString() {
         StringBuilder builder = new StringBuilder();
 
-        builder.append("-----------------------------------------------------\n")
-                .append("          ***   ")
-                .append(this.nome)
-                .append("   ***          \n")
-                .append("-----------------------------------------------------\n");
+        builder.append(StringUtils.leftPad("\n", 54, "="))
+                .append(StringUtils.center("***"+this.nome+"***", 54))
+                .append("\n")
+                .append(StringUtils.leftPad("\n", 54, "="));
 
         this.animals.forEach((animal) -> {
-            builder.append(this.animals.indexOf(animal) + 1)
-                    .append(". ----------------------- ")
-                    .append(animal.getNome())
+            
+            builder.append(StringUtils.leftPad(String.valueOf(this.animals.indexOf(animal)+1), 10))
+                    .append(". ")
+                    .append(StringUtils.leftPad(" " + animal.getNome(), 36, "-"))
                     .append("\n");
         });
 
-        builder.append("-----------------------------------------------------\n");
+        builder.append(StringUtils.leftPad("\n", 54, "="));
 
         return builder.toString();
     }

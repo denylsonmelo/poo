@@ -9,15 +9,12 @@ public class Teste {
     public static void main(String[] args) {
         
         Zoologico zoo = new Zoologico("zooinfo");
-        System.out.println(new Cachorro("bin ladin"));
-        System.out.println(new Cachorro("bin ladin"));
-        System.out.println(new Cachorro("bin ladin"));
-        /*
+        
         zoo.darEntrada(new Cachorro("bin ladin"));
         zoo.darEntrada(new Gato("little foot"));
         zoo.darEntrada(new Papagaio("besourinho"));
         
-        zoo.transferir(new Cachorro("bin ladin"));
+        //zoo.transferir(new Cachorro("bin ladin"));
         
         System.out.println(zoo);
         
