@@ -2,8 +2,9 @@ package br.edu.ifpi.capar.poo.assunto.oo.animal;
 
 import java.util.Objects;
 
-/**
+/**Classe que define um animal que late
  *
+ * @see Animal
  * @author Denylson Melo
  */
 public class Cachorro implements Animal{

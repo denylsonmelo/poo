@@ -1,4 +1,4 @@
-package br.edu.ifpi.capar.poo.assunto.oo.animal;
+    package br.edu.ifpi.capar.poo.assunto.oo.animal;
 
 
 /**
@@ -16,7 +16,7 @@ public class Teste {
         
         //zoo.transferir(new Cachorro("bin ladin"));
         
-        System.out.println(zoo);
+        System.out.println(zoo.toString());
         
         /*
         //Gato tom = new Gato("tom");
