@@ -9,6 +9,9 @@ import java.util.Objects;
  */
 public class Cachorro implements Animal{
 
+    public Cachorro() {
+        this.nome = "nome padrao do cachorro";
+    }
     public Cachorro(String nome) {
         this.nome = nome;
     }
