@@ -2,6 +2,7 @@ package br.edu.ifpi.capar.poo.assunto.oo.bd.dao;
 
 import br.edu.ifpi.capar.poo.assunto.oo.bd.model.Proprietario;
 import java.sql.Connection;
+import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
@@ -43,18 +44,51 @@ public class ProprietarioDao implements Crud<Proprietario> {
     }
 
     @Override
-    public Proprietario inserir() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    public boolean inserir(Proprietario proprietario) {
+
+        try {
+            PreparedStatement instrucaoParaBanco = conexao
+                    .prepareStatement("insert into proprietario(nome) values (?)");
+
+            instrucaoParaBanco.setString(1, proprietario.getNome());
+
+            return instrucaoParaBanco.execute();
+
+        } catch (SQLException ex) {
+            Logger.getLogger(ProprietarioDao.class.getName()).log(Level.SEVERE, null, ex);
+        }
+        return false;
     }
 
     @Override
-    public boolean deletar() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    public boolean deletar(int id) {
+        try {
+            PreparedStatement instrucaoParaBanco = conexao
+                    .prepareStatement("delete from proprietario where id=?");
+            
+            instrucaoParaBanco.setInt(1, id);
+            
+            return instrucaoParaBanco.execute();
+        } catch (SQLException ex) {
+            Logger.getLogger(ProprietarioDao.class.getName()).log(Level.SEVERE, null, ex);
+        }
+        return false;
     }
 
     @Override
-    public Proprietario editar() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    public boolean editar(Proprietario proprietario) {
+        try {
+            PreparedStatement instrucaoParaBanco = conexao
+                    .prepareStatement("update proprietario set nome=? where id=?");
+            
+            instrucaoParaBanco.setString(1, proprietario.getNome());
+            instrucaoParaBanco.setInt(2, proprietario.getId());
+            
+            return instrucaoParaBanco.execute();
+        } catch (SQLException ex) {
+            Logger.getLogger(ProprietarioDao.class.getName()).log(Level.SEVERE, null, ex);
+        }
+        return false;
     }
 
     public ProprietarioDao(Connection conexao) {

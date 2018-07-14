@@ -18,6 +18,13 @@ public class CompartilhamentoQuartos {
 
             ProprietarioDao dao = new ProprietarioDao(ConexaoBanco.conectar());
             
+            Proprietario p = new Proprietario();
+            
+            p.setId(3);
+            p.setNome("juvenaldo");
+            
+            dao.editar(p);
+            
             dao.visualizar().forEach(System.out::println);
             
         } catch (ClassNotFoundException | SQLException ex) {

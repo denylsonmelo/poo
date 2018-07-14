@@ -8,11 +8,11 @@ import java.util.List;
  */
 public interface Crud<T extends Object> {
 
-    T inserir();
+    boolean inserir(T t);
 
-    boolean deletar();
+    boolean deletar(int id);
 
-    T editar();
+    boolean editar(T t);
 
     List<T> visualizar();
 }
