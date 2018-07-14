@@ -16,7 +16,7 @@ public class CompartilhamentoQuartos {
     public static void main(String[] args) {
         try {
 
-            ProprietarioDao dao = new ProprietarioDao(ConexaoBanco.conectar());
+            ProprietarioDao dao = new ProprietarioDao(ConexaoBanco.getConnection());
             
             Proprietario p = new Proprietario();
             

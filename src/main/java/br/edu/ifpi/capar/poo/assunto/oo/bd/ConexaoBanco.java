@@ -11,13 +11,22 @@ import java.sql.Statement;
  *
  * @author Denylson Melo
  */
-public class ConexaoBanco {
+public final class ConexaoBanco {
 
-    private static final String DRIVER_BANCO = "com.mysql.jdbc.Driver";
+    private static final String DRIVER = "com.mysql.jdbc.Driver";
+    private static final String NOME = "kitnet";
+    private static final String USUARIO = "root";
+    private static final String SENHA = "root";
+    private static final String SERVIDOR = "localhost";
+    private static Connection connection;
 
-    public static Connection conectar() throws ClassNotFoundException, SQLException {
-        // Carregando o Driver do MySQL
-        Class.forName(DRIVER_BANCO);
-        return DriverManager.getConnection("jdbc:mysql://localhost/kitnet", "root", "root");
+    public static Connection getConnection() throws ClassNotFoundException, SQLException {
+        if (connection == null) {
+            // Carregando o Driver do MySQL
+            Class.forName(DRIVER);
+            connection = DriverManager
+                    .getConnection("jdbc:mysql://"+ SERVIDOR +"/" + NOME, USUARIO, SENHA);
+        }        
+        return connection;
     }
 }
