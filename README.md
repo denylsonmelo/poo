@@ -65,6 +65,10 @@ Data            |   Evento                  |   Atividade
 ---             |   ---                     |   ---
 ~~19/05~~ 02/06 |   Revisão                 |   Listas de Python (Básico, Seleção, Repetição)   
 ~~28/05~~ 02/06 |   Revisão                 |   Listas de Java (Básico, Seleção, Repetição)
+ 26/07 |   provas                 |   oracle
+ 27/07 |   recuperacao 1                 |   prova tudo
+ 03/08 |   recuperacao 2                 |   jogo, sistema
+ 06/08 |   Prova Final                 |   Jogo, sistema
 
 
 ## Trabalhos
