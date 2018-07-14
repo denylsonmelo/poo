@@ -1,11 +1,8 @@
-package br.edu.ifpi.capar.poo.assunto.oo.bd;
+package br.edu.ifpi.capar.poo.assunto.oo.bd.conexao;
 
-import br.edu.ifpi.capar.poo.assunto.oo.bd.model.Proprietario;
 import java.sql.Connection;
 import java.sql.DriverManager;
-import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.sql.Statement;
 
 /**
  *
